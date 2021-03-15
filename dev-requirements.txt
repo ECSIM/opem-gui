@@ -2,7 +2,7 @@ art==5.1
 requests==2.25.1
 matplotlib==3.3.3
 opem==1.2
-PyQt5==5.15.2
+PyQt5==5.15.4
 PyQt5-sip==12.8.1
 setuptools>=40.8.3
 bandit>=1.5.1

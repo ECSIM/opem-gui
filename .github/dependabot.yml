@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "01:30"
+  open-pull-requests-limit: 10
+  target-branch: develop
+  ignore:
+  - dependency-name: matplotlib
+    versions:
+    - 3.3.4
+    - 3.4.0
+  - dependency-name: pyqt5
+    versions:
+    - 5.15.3
